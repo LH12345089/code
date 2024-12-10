@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budgeting Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>How familiar are you with <span>budgeting?</span></h1>
+    <form id="budgetForm">
+      <div class="option">
+        <input type="radio" id="not-familiar" name="familiarity" value="Not familiar">
+        <label for="not-familiar">
+          <span class="icon">😐</span> Not familiar
+        </label>
+      </div>
+      <div class="option">
+        <input type="radio" id="somewhat-familiar" name="familiarity" value="Somewhat familiar">
+        <label for="somewhat-familiar">
+          <span class="icon">🙂</span> Somewhat familiar
+        </label>
+      </div>
+      <div class="option">
+        <input type="radio" id="very-familiar" name="familiarity" value="Very familiar">
+        <label for="very-familiar">
+          <span class="icon">😁</span> Very familiar
+        </label>
+      </div>
+      <button type="submit">Next</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
